@@ -1,4 +1,12 @@
-import {CountUp} from 'countup.js'
+import { CountUp } from 'countup.js'
+import Swiper, { Navigation, Pagination } from 'swiper';
+
+// import 'swiper/swiper-bundle.css';
+ import 'swiper/swiper-bundle.css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+
+
 
 const refs = {
     drinks: document.querySelector('[data-num="93"]'),
@@ -44,3 +52,27 @@ const observer = new window.IntersectionObserver(([entry]) => {
 })
 
 observer.observe(refs.numGroup);
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+
+
+});

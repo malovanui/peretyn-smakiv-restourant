@@ -50,7 +50,7 @@ img {display: block;}
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 100vh;
+    height: 800px;
     padding-top: 50px;
 }
 
@@ -484,6 +484,7 @@ top: 322px;
 
 .menu {
     padding-top: 132px;
+    padding-bottom: 150px;
 }
 
 .menu-title {
@@ -545,4 +546,188 @@ top: 322px;
 
 .menu__price-item:hover .menu__price-position {
     color: #D67E34;
+}
+
+/* -----DRINKS---- */
+
+.drinks {
+    padding-top: 300px;
+    padding-bottom: 266px;
+
+    background-image: url(./img/drinks-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drinks>.container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.drinks-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-top: 80px;
+    padding-bottom: 29px;
+
+    background-color: #fff;
+}
+
+.drinks-card__thumb {
+    width: 255px;
+    height: 255px;
+
+    margin-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+.drinks-card__recomended {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #D67E34;
+    padding: 12px 19px;
+
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.38;
+    text-align: center;
+
+    color: #000000;
+}
+
+.drinks-card__img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.drinks-card__price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 260px;
+    left: 200px;
+
+    width: 100px;
+    height: 100px;
+    background-color: #D67E34;
+    border-radius: 50%;
+    border: 7px solid #FFFFFF;
+
+    color: #FFFFFF;
+    font-family: 'Cookie';
+    font-size: 30px;
+    line-height: 1.1;
+
+    color: #FFFFFF;
+}
+
+.drinks-card__title {
+    font-family: 'Tinos';
+    font-size: 26px;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 17px;
+
+    color: #000000;
+}
+
+.drinks-card__description {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-grow: 1;
+
+    color: #000000;
+}
+
+.drinks-card__button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 14px 68px;
+    background-color: #D67E34;
+    color: #FFFFFF;
+
+}
+
+/* -----REVIEWS---- */
+
+.reviews {
+    padding-top: 104px;
+    padding-bottom: 108px;
+    background-color: #E5E5E5;
+}
+
+.swiper {
+    width: 700px;
+    /* height: 800px; */
+}
+
+.reviews__text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.22;
+    text-align: center;
+
+    color: #000000;
+}
+
+.reviews__img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+
+    border-radius: 50%;
+}
+
+.reviews__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9px;
+
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #000000;
+}
+
+.reviews__name {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #000000;
+}
+
+.swiper-button-prev {
+    color: #D67E34;
+    display: none;
 }
