@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Перетин смаків</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="container">
+            <div class="header-div">
+            <img src="./img/logo.png" alt="Логотип ресторану" width="100px" class="header-div__logo">
+            <nav class="header-div__nav-div">
+                <ul class="header-div__nav">
+                    <li class="header-div__item"><a href="./index.html" class="header-div__item-text">Головна</a></li>
+                    <li class="header-div__item"><a href="#menu" class="header-div__item-text">Меню</a></li>
+                    <li class="header-div__item"><a href="" class="header-div__item-text">Про нас</a></li>
+                    <li class="header-div__item"><a href="#reservation" class="header-div__item-text">Бронь</a></li>
+                </ul>
+
+                <a href="" class="header-div__cart-btn"><img src="./img/cart.png" class="header-div__cart-img" alt="Кнопка корзини" width="13px"></a>
+            </nav>
+
+            <div class="header-div__contacts">
+                <a href="tel:+66 666 6666" class="header-div__num">+66 666 6666</a>
+                <p class="header-div__num-text">Зв'яжіться з нами</br>для бронювання</p>
+            </div>
+
+            <button type="button" class="header-div__reservation-btn btn btn-main">БРОНЮВАТИ</button>
+        </div>
+        </div>
+
+    </header>
+
+    <main>
+     <div class="container">
+        <section class="hero">
+        <p class="hero__pre-title">Ласкаво просимо в</p>
+        <h1 class="hero__title">ПЕРЕТИН СМАКІВ</h1>
+        <p class="hero__after-title">найароматніша кухня</p>
+        
+        <button class="hero__button btn btn-main">Меню</button>
+       </section>
+     </div>
+
+     <section class="cards">
+        <div class="container">
+
+            <div class="card-set">
+                <ul class="card-set__list">
+                    <li class="card-set__item">
+                        <img src="./img/dish.png" alt="" class="card-set__img" width="87px">
+                        <p class="card-set__title">Магічна <span>атмосфера</span></p>
+                        <p class="card-set__text">В нашому закладі панує магічна атмосфера наповнена неповторними ароматами</p>
+                    </li>
+                    <li class="card-set__item">
+                        <img src="./img/dish.png" alt="" class="card-set__img" width="87px">
+                        <p class="card-set__title">Їжа <span>вищого</span> гатунку</p>
+                        <p class="card-set__text">У нас найсвіжіші та найякісніші продукти</p>
+                    </li>
+                    <li class="card-set__item">
+                        <img src="./img/dish.png" alt="" class="card-set__img" width="87px">
+                        <p class="card-set__title">Доступні <span>ціни</span></p>
+                        <p class="card-set__text">В нашому закладі панує магічна атмосфера наповнена неповторними ароматами</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+     </section>
+
+     <section class="history">
+        <div class="container">
+            <div class="history-wrap">
+                <p class="history-wrap__title">Наша <span>історія</span></p>
+                <p class="history-wrap__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ut, cupiditate at iste atque hic officiis temporibus culpa quas incidunt exercitationem obcaecati vero dolore sunt, nesciunt magnam repudiandae libero sed dignissimos soluta enim consequatur accusamus! Debitis unde dolores saepe at assumenda tempore obcaecati accusantium quis, error, est quidem ex. Provident.</p>
+                <div class="history-wrap__numbers" data-numbers-group>
+                    <div class="history-wrap__numbers-group">
+                        <p class="history-wrap__numbers-num" data-num="93"></p>
+                        <p class="history-wrap__numbers-title">Напої</p>
+                    </div>
+
+                    <div class="history-wrap__numbers-group">
+                        <p class="history-wrap__numbers-num" data-num="206"></p>
+                        <p class="history-wrap__numbers-title">Страв</p>
+                    </div>
+
+                    <div class="history-wrap__numbers-group">
+                        <p class="history-wrap__numbers-num" data-num="61"></p>
+                        <p class="history-wrap__numbers-title">Закусок</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/images.png" alt="страви нашого ресторану" width="539px">
+        </div>
+     </section>
+
+     <section class="reservation" id="reservation">
+        <div class="container">
+
+            <div class="reservation__wrap">
+                <p class="reservation__title">СВЯТКУЙТЕ В ОДНОМУ З НАЙКРАЩИХ РЕСТОРАНІВ</p>
+                <p class="reservation__after-title">тільки в цьому місяці місце від 350 грн</p>
+            </div>
+
+            <button type="button" class="reservation__button btn btn-main">БРОНЮВАТИ СТОЛИК</button>
+
+        </div>
+     </section>
+    </main>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <p class="menu-title">Наше <span>меню</span></p>
+
+            <div class="menu__wrap">
+                <img src="./img/menu-big.png" alt="Піца" width="445px" height="478px" class="menu__img">
+                <!-- <div class="menu__img-column">
+                    <ul class="menu__img-list">
+                        <li class="menu__img-item"><img src="./img/menu-small.png" alt="страва з меню" width="160px"></li>
+                        <li class="menu__img-item"><img src="./img/menu-small.png" alt="страва з меню" width="160px"></li>
+                        <li class="menu__img-item"><img src="./img/menu-small.png" alt="страва з меню" width="160px"></li>
+                    </ul>
+                </div> -->
+                <ul class="menu__price-list">
+                    <li class="menu__price-item">
+                       <div class="menu__price-wrap">
+                         <img src="./img/menu-small.png" alt="страва з меню" width="160px" class="menu__price-img">
+                        <p class="menu__price-position">Позиція  ...........................................  130₴</p>
+                       </div>
+                    </li>
+                    <li class="menu__price-item">
+                       <div class="menu__price-wrap">
+                         <img src="./img/menu-small.png" alt="страва з меню" width="160px" class="menu__price-img">
+                        <p class="menu__price-position">Позиція  ...........................................  130₴</p>
+                       </div>
+                    </li> <li class="menu__price-item">
+                       <div class="menu__price-wrap">
+                         <img src="./img/menu-small.png" alt="страва з меню" width="160px" class="menu__price-img">
+                        <p class="menu__price-position">Позиція  ...........................................  130₴</p>
+                       </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer></footer>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
